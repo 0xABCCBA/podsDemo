@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Counter {
-    static func getCountDownTime(_ start: String) -> Double {
+public struct Counter {
+    public static func getCountDownTime(_ start: String) -> Double {
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat="yyyy-MM-dd HH:mm:ss"
