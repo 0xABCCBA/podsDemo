@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CountDownTimer"
-  spec.version      = "0.03"
+  spec.version      = "1.0"
   spec.summary      = "用来显示倒计时秒杀计算"
 
   # This description is used to generate tags and improve search results.
