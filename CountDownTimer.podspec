@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CountDownTimer"
-  spec.version      = "0.0.2"
+  spec.version      = "0.03"
   spec.summary      = "用来显示倒计时秒杀计算"
 
   # This description is used to generate tags and improve search results.
@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-
+  spec.swift_versions = "5.0"
   spec.source_files  = "CountDownTimer/Counter/*.swift", "CountDownTimer/Counter/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
